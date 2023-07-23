@@ -1,0 +1,55 @@
+.header__wrapper {
+    display: flex;
+    padding: 1rem 0;
+
+    .header__logo {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+
+        img {
+            height: 100px;
+            width: 90px;
+        }
+
+        .header__title {
+            h1, h2, h3 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            h1 {
+                font-size: 2rem;
+                letter-spacing: -2px;
+            }
+
+            h4 {
+                font-size: 0.75rem;
+                opacity: 75%;
+            }
+        }
+    }
+
+    .header__links {
+        list-style: none;
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        gap: 1rem;
+
+        li a {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #36454F;
+
+            &:hover {
+                color: red;
+            }
+        }
+
+    }
+    
+}
+
+header {
+    margin: 0 8rem;
+}
