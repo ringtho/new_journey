@@ -9,4 +9,13 @@
 body {
   font-family: 'Manrope', sans-serif;
   color: #36454F;
+  // text-shadow: 1px 0px black;
+}
+
+.home__wrapper {
+  background-image: url('./assets/school5.jpg');
+  background-size: cover;
+  object-fit: cover;
+  width: 100vw;
+  min-height: 100vh;
 }
