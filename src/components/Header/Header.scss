@@ -40,9 +40,11 @@
             text-transform: uppercase;
             text-decoration: none;
             color: #36454F;
+            letter-spacing: 1px;
 
             &:hover {
-                color: red;
+                color: rgb(244, 146, 146);
+                transition: color 75ms;
             }
         }
 
