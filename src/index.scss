@@ -6,9 +6,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-text-color: #36454F
+}
+
 body {
   font-family: 'Manrope', sans-serif;
-  color: #36454F;
+  color: var(--primary-text-color);
   // text-shadow: 1px 0px black;
 }
 
