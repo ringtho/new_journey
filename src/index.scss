@@ -16,10 +16,10 @@ body {
   // text-shadow: 1px 0px black;
 }
 
-.home__wrapper {
-  background-image: url('./assets/school5.jpg');
-  background-size: cover;
-  object-fit: cover;
-  width: 100vw;
-  min-height: 100vh;
+.container {
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 }

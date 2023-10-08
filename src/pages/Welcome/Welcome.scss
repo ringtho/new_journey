@@ -1,0 +1,35 @@
+.welcome__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    flex: 1;
+    padding: 3rem 5rem;
+}
+
+.welcome__image {
+    max-width: 40Vw;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.welcome__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 50vw;
+
+    h2 {
+        font-size: 3rem;
+        color: #176B87;
+        border-bottom: 2px solid aliceblue;
+    }
+
+    p {
+        line-height: 38px;
+        font-size: 1.25rem;
+    }
+}

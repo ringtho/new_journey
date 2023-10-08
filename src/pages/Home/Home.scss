@@ -1,7 +1,46 @@
 .home__wrapper {
-    background-image: url('./assets/school5.jpg');
+    background-image: url('../../assets/school5.jpg');
     background-size: cover;
-    object-fit: cover;
-    width: 100vw;
-    min-height: 100vh;
+
+    header, .home__text {
+        margin: 0 8rem;
+    }
+
+    .home__text {
+        height: 70vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        color: white;
+        text-shadow: 1px 0 #000;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        button {
+            margin-top: 40px;
+            align-self: flex-start;
+
+            background-color: transparent;
+            border: 2px solid #FFF;
+            padding: 0.5rem 1rem;
+            color: #FFF;
+            font-size: large;
+            border-radius: 1.5rem;
+
+            &:hover {
+                cursor: pointer;
+                color: rgb(244, 146, 146);
+                background-color: #FFF;
+            }
+        }
+    
+    }
   }
